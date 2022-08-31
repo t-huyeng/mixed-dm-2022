@@ -41,7 +41,7 @@
           <v-card-actions>
             <v-btn to="spirit"> Spirit </v-btn>
             <v-btn
-              href="https://docs.google.com/spreadsheets/d/1EzHCebxjz8VHn3ol5Ms7yrOwSDSn3Z1YfFdHsfeM50M/edit#gid=424615547"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfuHjSZraifL-MjsvoZLOscLMfcgRA96VmlG5Or6pLFrifSNg/viewform"
               target="_blank"
             >
               New tab<v-icon right dark> mdi-open-in-new</v-icon>
