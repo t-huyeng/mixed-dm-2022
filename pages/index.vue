@@ -65,25 +65,28 @@
         </v-card>
       </v-col>
     </v-row>
-
-    <v-timeline align-top :dense="$vuetify.breakpoint.smAndDown">
-      <template v-for="(item, key) in timelines">
-        <v-timeline-item :key="key" :color="item.color" small>
-          <v-row class="pt-1">
-            <v-col cols="3">
-              <strong v-if="item.endtime"
-                >{{ item.time }} - {{ item.endtime }}</strong
-              >
-              <strong v-else>{{ item.time }}</strong>
-            </v-col>
-            <v-col>
-              <strong>{{ item.title }}</strong>
-              <div class="text-caption">{{ item.subtitle_1 }}</div>
-            </v-col>
-          </v-row>
-        </v-timeline-item>
-      </template>
-    </v-timeline>
+    <v-card flat class="mx-auto mt-4" max-width="600px">
+      <v-card-text class="py-0">
+        <v-timeline align-top :dense="$vuetify.breakpoint.smAndDown">
+          <template v-for="(item, key) in timelines">
+            <v-timeline-item :key="key" :color="item.color" small>
+              <v-row class="pt-1">
+                <v-col>
+                  <strong v-if="item.endtime"
+                    >{{ item.time }} - {{ item.endtime }}</strong
+                  >
+                  <strong v-else>{{ item.time }}</strong>
+                </v-col>
+                <v-col>
+                  <strong>{{ item.title }}</strong>
+                  <div class="text-caption">{{ item.subtitle_1 }}</div>
+                </v-col>
+              </v-row>
+            </v-timeline-item>
+          </template>
+        </v-timeline>
+      </v-card-text>
+    </v-card>
   </v-container>
 </template>
 
