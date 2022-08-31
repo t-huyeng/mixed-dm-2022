@@ -1,7 +1,10 @@
 <template>
   <div>
     <h1>Restaurantliste</h1>
-    <vue-pdf-embed source="/Restaurantliste.pdf" style="width: 100%" />
+    <vue-pdf-embed
+      source="/mixed-dm-2022/Restaurantliste.pdf"
+      style="width: 100%"
+    />
   </div>
 </template>
 
