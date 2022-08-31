@@ -59,6 +59,11 @@ export default {
           title: "Lageplan",
           to: "/lageplan",
         },
+        {
+          icon: "mdi-food",
+          title: "Restaurantliste",
+          to: "/restaurantliste",
+        },
       ],
       title: "Mixed DM 2022 - Freiburg",
     };
