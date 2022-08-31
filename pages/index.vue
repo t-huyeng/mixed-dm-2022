@@ -67,6 +67,7 @@
     </v-row>
     <v-card flat class="mx-auto mt-4" max-width="600px">
       <v-card-text class="py-0">
+        <v-card-title>Samstag</v-card-title>
         <v-timeline align-top :dense="$vuetify.breakpoint.smAndDown">
           <template v-for="(item, key) in timelines">
             <v-timeline-item :key="key" :color="item.color" small>
@@ -96,6 +97,11 @@ export default {
     timelines: [
       { time: "08:00", title: "Captains Meeting" },
       { time: "07:00", endtime: "10:00", title: "Frühstück" },
+      {
+        time: "11:00",
+        endtime: "17:00",
+        title: "Salatbuffet und Maultaschen(burger)",
+      },
     ],
   }),
 };
