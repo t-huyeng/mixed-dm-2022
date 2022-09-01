@@ -64,12 +64,13 @@ export default {
           error: colors.deepOrange.accent4,
           success: colors.green.accent3
         },
+        // https://coolors.co/palette/0081a7-00afb9-fdfcdc-fed9b7-f07167
         light: {
-          primary: '#3f51b5',
-          secondary: '#b0bec5',
-          accent: '#8c9eff',
-          error: '#b71c1c',
-          info: '#FFFFFF',
+          primary: '#0081a7',
+          secondary: '#00afb9',
+          accent: '#fdfcdc',
+          error: '#f07167',
+          info: '#fed9b7',
         },
       }
     }

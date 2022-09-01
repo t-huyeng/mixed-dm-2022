@@ -26,6 +26,19 @@
     <v-main>
       <v-container class="mb-5">
         <nuxt />
+        <v-btn
+          v-if="this.$route.path !== '/'"
+          to="/"
+          fab
+          dark
+          small
+          color="secondary"
+          fixed
+          right
+          bottom
+        >
+          <v-icon dark>mdi-home</v-icon>
+        </v-btn>
       </v-container>
     </v-main>
   </v-app>

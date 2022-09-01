@@ -1,9 +1,9 @@
 <template>
-  <v-container fill-height max-width="400px">
+  <v-container fill-height style="max-width: 600px">
     <!-- https://coolors.co/palette/0081a7-00afb9-fdfcdc-fed9b7-f07167 -->
     <v-row dense>
       <v-col cols="12">
-        <v-card color="#0081a7">
+        <v-card color="primary" class="accent--text">
           <div class="d-flex flex-no-wrap justify-space-between">
             <div>
               <v-card-title class="text-h5"> Spielplan</v-card-title>
@@ -11,7 +11,7 @@
               <v-card-subtitle>Mixed DM 2022</v-card-subtitle>
             </div>
             <v-avatar class="ma-3" size="80" tile>
-              <v-icon large>mdi-timetable</v-icon>
+              <v-icon large color="accent">mdi-timetable</v-icon>
             </v-avatar>
           </div>
           <v-card-actions>
@@ -27,7 +27,7 @@
       </v-col>
       <Lageplan />
       <v-col cols="12">
-        <v-card color="#f07167">
+        <v-card color="error">
           <div class="d-flex flex-no-wrap justify-space-between">
             <div>
               <v-card-title class="text-h5"> Spirit</v-card-title>
@@ -50,18 +50,39 @@
         </v-card>
       </v-col>
       <v-col cols="12">
-        <v-card color="#fed9b7">
+        <v-card color="accent">
+          <div class="d-flex flex-no-wrap justify-space-between">
+            <div>
+              <v-card-title class="text-h5"> Live-Stream</v-card-title>
+              <v-card-subtitle>Feld 2</v-card-subtitle>
+              <v-card-actions>
+                <v-btn
+                  href="https://www.youtube.com/c/DeutscherFrisbeesportVerband"
+                  target="_blank"
+                >
+                  DFV - Youtube <v-icon right>mdi-youtube</v-icon>
+                </v-btn>
+              </v-card-actions>
+            </div>
+            <v-avatar class="ma-3" size="80" tile>
+              <v-icon large>mdi-television</v-icon>
+            </v-avatar>
+          </div>
+        </v-card>
+      </v-col>
+      <v-col cols="12">
+        <v-card color="info">
           <div class="d-flex flex-no-wrap justify-space-between">
             <div>
               <v-card-title class="text-h5"> Restaurantliste</v-card-title>
+              <v-card-actions>
+                <v-btn to="restaurantliste"> Liste </v-btn>
+              </v-card-actions>
             </div>
             <v-avatar class="ma-3" size="80" tile>
               <v-icon large>mdi-food</v-icon>
             </v-avatar>
           </div>
-          <v-card-actions>
-            <v-btn to="restaurantliste"> Liste </v-btn>
-          </v-card-actions>
         </v-card>
       </v-col>
     </v-row>

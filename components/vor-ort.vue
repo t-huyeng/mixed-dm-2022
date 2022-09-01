@@ -1,5 +1,14 @@
 <template>
   <v-card>
+    <v-card-title>Parkplätze</v-card-title>
+    <v-card-text>
+      Die Parkplätze hinter Feld 1 und 2 sowie die an der Schwarzwaldstraße sind
+      ggf. aufgrund eines SC-Freiburg II-Spiels wahrscheinlich nicht benutzbar.
+      Wenn ihr also keinen Parkplatz auf dem PTSV-Parkplatz (Schwarzwaldstr.
+      189) bekommt, könnt ihr auf dem Gelände der Freiburger Turnerschaft parken
+      (Schwarzwaldstraße 181).
+    </v-card-text>
+
     <v-card-title>Vor Ort</v-card-title>
     <v-card-text>
       Gegebenheiten vor Ort: Leider ist das Gelände hier relativ klein und hat
