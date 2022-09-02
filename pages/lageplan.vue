@@ -2,7 +2,7 @@
   <v-container>
     <Lageplan />
     <vue-pdf-embed
-      source="/mixed-dm-2022/GeländeplanMixedDM_220831.pdf"
+      source="/mixed-dm-2022/GelaendeplanMixedDM_220902.pdf"
       style="max-width: 800px"
       class="mx-auto"
     />
