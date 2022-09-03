@@ -8,7 +8,7 @@
             <div>
               <v-card-title class="text-h5"> Spielplan</v-card-title>
 
-              <v-card-subtitle>Mixed DM 2022</v-card-subtitle>
+              <v-card-subtitle>Alternativen Spielplan beachten!</v-card-subtitle>
             </div>
             <v-avatar class="ma-3" size="80" tile>
               <v-icon large color="accent">mdi-timetable</v-icon>
